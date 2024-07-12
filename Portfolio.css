@@ -1,0 +1,48 @@
+.div1{
+    font-family: "Libre Baskerville", serif;
+    border: solid #55AD9B;
+    border-width: 5px;
+    color: black; 
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+h1{
+    text-transform: capitalize;
+}
+body{
+    background-color:#FFD0D0;
+  }
+  .gradient-background{
+    background: linear-gradient(300deg, #36C2CE,#36C2CE, #90D26D);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .gradient-background1{
+    background: linear-gradient(300deg, #3FA2F6,#3AA6B9,#E0A75E);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

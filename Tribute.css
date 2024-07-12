@@ -1,0 +1,36 @@
+img{
+    width: 100%;
+   }
+  body{
+    background-color:#36BA98;
+  }
+   .div1{
+       font-family: "Libre Baskerville", serif;
+       border: solid black;
+       border-width: 5px;
+       color: white; 
+       text-align: center;
+       width: 50%;
+       margin-top: 100px;
+       margin-left: 25%;
+   }
+   h1{
+       text-transform: capitalize;
+   }
+   .gradient-background{
+    background: linear-gradient(300deg, #36C2CE,#36C2CE, #90D26D);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+   
